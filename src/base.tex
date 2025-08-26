@@ -1,0 +1,15 @@
+\input{cfg/packages}
+\input{cfg/settings}
+\input{cfg/commands}
+
+\begin{document}
+    \pagenumbering{gobble}
+    \input{src/generic/title}
+    \input{src/generic/abstract}
+    \input{src/generic/table_of_contents}
+
+    \pagenumbering{arabic}
+    \input{src/body}
+
+    \input{src/generic/bibliography}
+\end{document}
